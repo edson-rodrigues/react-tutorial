@@ -34,7 +34,7 @@ function Square(props){
               onClick = { () => this.handleClick(i)}
               />
         )
-    }
+    };
   
     render() {
       const winner = calculateWinner(this.state.squares);
